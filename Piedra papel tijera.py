@@ -11,8 +11,7 @@ ganoJuego=""
 ganoUsuario = 0
 ganoComputadora = 0
 while seguirJugando!=0:
-    usuario = input("'R' Piedra, 'P' Papel o 'T' Tijera \n")
-    usuario = usuario.upper()
+    usuario = input("'R' Piedra, 'P' Papel o 'T' Tijera \n").upper()
     computadora =random.choice(['R', 'P', 'T']) 
     print(computadora)
     if usuario == computadora:
